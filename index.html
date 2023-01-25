@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MI PRIMERA WEB</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola bits</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Hola bits 45</td>
+                <td>$100.00 </td>
+            </tr>
+            <tr>
+                <td>Television de 32 pulagadas</td>
+                <td>$15000.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $15100.00</td>
+        </tfoot>
+    </table>
+    <!--LISTA NO ORDENADA   -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!--LISTA ORDENADA   -->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+    <!--LISTA ORDENADA MANIPULANDO INICIO  -->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type:lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type:lower-alpha;">sub elemento 3</li>
+                <li style="list-style-type:lower-alpha;">sub elemento 4</li>
+            </ol>
+        </li>
+    </ol>    
+
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input value="Asignado" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Asignado 2"type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <br>
+        <label for="comentario">Comentario</label><br>
+        <textarea cols="35  " rows="10" id="comentario" name="comentario" placeholder="ingrese comentario">este es un valor por defecto </textarea>
+        <br>
+        <button type="button"><img src="imagen/imagen.png" width="15" height="15"/> Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>Este es mi primer parrafo en HTML</p>
+    <p>Este es mi segundo parrafo de HTML</p>
+    <hr>
+    <h2>Heading de la segunda parte</h2>
+    <p>
+        Mi tercer parrafo de la parte dos del codigo y es para <br>
+        <span style="color:blue"> mostrar </span> la etiqueta de span!
+    </p>
+    <!-- Este texto es un comentario-->
+    <a href="https://www.google.com">Ir a Google</a> <br>
+    <a target="_blank" href="https://www.google.com">Ir a Google link 2</a><br>
+    <img src="imagen/imagen.png" width="200" height="300"/>
+</body>
+</html>

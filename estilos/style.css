@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../estilos/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 200;
+    box-sizing: border-box;
+}
+
+.formulario{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.formulario .Boton{
+width: 100%;
+background: #1f53c5;
+border: none;
+padding: 5px;
+color:white;
+margin: 16px 0;
+font-size: 14px;
+}
+
+#tablap{
+    margin: auto;
+    padding: 30px;
+    margin-top: 40px;
+    width: 740px;
+}
+
+table{
+    background-color: #24303c;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 8px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 0px;
+    color: white;
+}

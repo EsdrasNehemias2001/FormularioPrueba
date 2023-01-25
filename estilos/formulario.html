@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>FORMULARIO</title>
+</head>
+<style>
+    .titulo{
+    color: white;
+    text-decoration:underline;
+    text-align: center;
+    margin: 50px 10px 0px 10px;
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+}
+
+</style>
+<header>
+    <h1 class="titulo">FORMULARIO PARA EL REGISTRO DE ALUMNOS</h1>
+</header>
+<body>
+    <section class="formulario">
+        <label class="nombre" for="nombre">Nombre del alumno:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"/>
+        <br><br>
+        <label class="apellido" for="apellido">Apellido del alumno:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido"/>
+        <br><br>
+        <label class="fecha" for="fecha">Fecha de nacimiento:</label>
+        <input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa"/>
+        <br><br>
+        <label class="correo" for="correo">Correo electronico:</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com"/>
+        <br><br>
+        <label class="escuela" for="escuela">Nombre de la escuela:</label>
+        <input type="text" id="escuela" name="escuela" placeholder="Nombre de la escuela"/>
+        <br><br>
+        <label class="genero" for="genero">Genero:</label>
+        <select name="" id="">
+            <option >Seleccione su genero</option>
+            <option value="Hombre">Masculino</option>
+            <option value="Mujer">Femenino</option>
+        </select>
+        <br>
+        <br>
+        <input class="Boton" type="submit" value="Registrar">
+    </section>
+</body>
+</html>
