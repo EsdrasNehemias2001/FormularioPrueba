@@ -34,6 +34,66 @@ margin: 16px 0;
 font-size: 14px;
 }
 
+.login{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.login h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login .datos{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 15px;
+    color: white;
+}
+
+.login .Boton{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 5px;
+    color:white;
+    margin: 16px 0;
+    font-size: 14px;
+    }
+
+.login .Boton2{
+    width: 100%;
+    background: #03a018;
+    border: none;
+    padding: 5px;
+    color:white;
+    margin: 0 0;
+    font-size: 14px;
+    }
+
+.login p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
+}
+
 #tablap{
     margin: auto;
     padding: 30px;
