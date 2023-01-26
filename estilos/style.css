@@ -94,6 +94,34 @@ font-size: 14px;
     text-decoration: none;
 }
 
+.index{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.index p{
+    height: 40px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.index a{
+    color: white;
+    text-decoration: none;
+}
+
+.index h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 #tablap{
     margin: auto;
     padding: 30px;
